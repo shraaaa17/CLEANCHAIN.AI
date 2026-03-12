@@ -1,0 +1,19 @@
+{
+  "name": "cleanchain-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain module for CleanChain CSR verification system",
+  "main": "index.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.js --network amoy",
+    "test": "hardhat test"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "dotenv": "^16.3.1",
+    "hardhat": "^2.19.4"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.9.5"
+  }
+}
